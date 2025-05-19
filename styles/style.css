@@ -47,6 +47,30 @@ h1 {
     color: rgb(91, 91, 91);
 }
 
-.recipe-list li:hover{
+.recipe-list li:hover, .home:hover{
     background-color: hsl(180, 100%, 34%);
+}
+
+img{
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.recipe{
+    width: 60%;
+    margin: 8px auto;
+    background-color: aqua;
+    padding: 6px;
+    border-radius: 15px;
+    /* text-align: center; */
+}
+
+.home{
+    padding: 6px;
+    text-decoration: none;
+    color: rgb(91, 91, 91);
+    background-color: aqua;
+    border-radius: 10px;
 }
