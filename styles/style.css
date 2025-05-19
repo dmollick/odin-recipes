@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: aqua;
+    padding: 10px;
+    margin: auto;
+    margin-top: 8px;
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(91, 91, 91);
+}
+
+.recipe-card{
+    border: 2px solid aqua;
+    background-color: lightgoldenrodyellow;
+    padding: 8px;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+
+}
+
+.recipe-list{
+    /* border: 2px solid green; */
+    margin: 0 0 8 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.recipe-list li{
+    width: 60%;
+    margin: 8px auto;
+    background-color: aqua;
+    padding: 6px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.recipe-list a{
+    /* background-color: green; */
+    padding: 6px 180px;
+    text-decoration: none;
+    color: rgb(91, 91, 91);
+}
+
+.recipe-list li:hover{
+    background-color: hsl(180, 100%, 34%);
+}
